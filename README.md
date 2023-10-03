@@ -32,7 +32,7 @@ There are two main types of version control systems: centralized version control
 - The computer industry's use of the terms master and slave caught everyone's attention in the summer of 2020. Amid the many protests and the growing social unrest, these harmful and antiquated terms were no longer considered appropriate.
 
 **"Both Conservancy and the Git project are aware that the initial branch name, 'master,' is offensive to some people and we empathize with those hurt by the use of that term,"** said the Software Freedom Conservancy.
-- 
+
 # Git basic commands
 
 ```console
