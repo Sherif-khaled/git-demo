@@ -1,6 +1,11 @@
 # What is git?
 - **git** is a version control system (VSC), give you ability to track files changes, and make amount of people to contribute on those files.and this commonly used for software development, but also can be used to track another files changes.
 
+#  Why is It So Important?
+- Two main advantages of using Git at software development:
+1- Tracking the changes and updates. We are able to see who made which changes. Git also provides when and why a change was made.
+2- Allowing to work collaboratively. Software development projects usually require many people to work together. Git provides the developers with a systematic way of doing that. Thus, the developers focus on the project instead of extensive communication sessions between the other developers.
+
 # What is github?
 - **GitHub** is a web-based platform that provides hosting for version control using Git. It is a subsidiary of Microsoft, and it offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. GitHub is a very popular platform for developers to share and collaborate on projects, and it is also used for hosting open-source projects.
 
