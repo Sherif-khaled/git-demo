@@ -35,7 +35,9 @@ git status
 ```
 # How to get repo logs?
 ```
-git logs //this command will git all changes logs with commit id
+git log //this command will git all changes logs with commit id,Author,date and commit message
+git log //this command will git all changes logs with commit id,Author,date,message and commit changes text
+git log --oneline //this command will get logs with short commit id and commit message
 ```
 # How to create new branch?
 ```
@@ -57,6 +59,19 @@ git push origin --delete <BRANCH_NAME>
 ```
 git branch
 ```
-f
+# How to merge branch into main branch using merge command?
+```
+git checkout main
+git merge <MERGED_BRANCH_NAME>
+git push origin main
 
+```
+# How to merge branch into main branch and then delete the branch?
+```
+git checkout main
+git merge <MERGED_BRANCH_NAME>
+git checkout -d <MERGED_BRANCH_NAME>
+git push origin main --delete <MERGED_BRANCH_NAME>
+
+```
 
