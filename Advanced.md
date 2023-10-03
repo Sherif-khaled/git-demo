@@ -14,3 +14,10 @@ Set your username:
 git config --global user.name YOUR_USERNAME"
 
 ```
+
+# How to verify your config settings?
+
+```
+git config -l
+```
+
