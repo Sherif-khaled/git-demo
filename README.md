@@ -6,6 +6,14 @@
 1- Tracking the changes and updates. We are able to see who made which changes. Git also provides when and why a change was made.
 2- Allowing to work collaboratively. Software development projects usually require many people to work together. Git provides the developers with a systematic way of doing that. Thus, the developers focus on the project instead of extensive communication sessions between the other developers.
 
+# What is difference between local & remote repository? How to connect local to remote?
+
+- **Local repository**
+A local repository is a copy of the entire project’s history and codebase that resides on a developer’s machine. When a developer initializes a local repository, Git sets up the necessary infrastructure to track changes, branches, and commits within the project.
+- **Remote repository**
+A remote repository, as the name suggests, is a repository hosted on a remote server or a code hosting platform like GitHub, GitLab, or Bitbucket. Remote repositories serve as a central hub where developers can collaborate and share their work with others. When working with a remote repository, developers can push their local commits to the remote server and pull the latest changes made by other team members.
+
+
 # What is github?
 - **GitHub** is a web-based platform that provides hosting for version control using Git. It is a subsidiary of Microsoft, and it offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. GitHub is a very popular platform for developers to share and collaborate on projects, and it is also used for hosting open-source projects.
 
