@@ -15,6 +15,10 @@ There are two main types of version control systems: centralized version control
 
 
 # What is deferent between main branch and master branch?
+
+- The computer industry's use of the terms master and slave caught everyone's attention in the summer of 2020. Amid the many protests and the growing social unrest, these harmful and antiquated terms were no longer considered appropriate.
+
+**"Both Conservancy and the Git project are aware that the initial branch name, 'master,' is offensive to some people and we empathize with those hurt by the use of that term,"** said the Software Freedom Conservancy.
 - 
 # Git basic commands
 
@@ -44,5 +48,25 @@ git log
 git checkout -b "new_branch_name"
 
 git checkout "branch_name"
+
+- rename branch on local repo
+git branch -m "old_branch_name "new_branch_name"
+
+- push renamed branch
+git push -u "old_branch_name "new_branch_name"
+
+- change pointing HEAD to new branch name
+git remote set-head "old_branch_name "new_branch_name"
+
+- get current HEAD
+git branch -a
+
+-delete the branch from remote repo
+git push origin --delete <branch_name>
+
+
+
+
+
 
 
