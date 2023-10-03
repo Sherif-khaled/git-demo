@@ -45,6 +45,18 @@ git checkout -b <BRANCH_NAME>
 ```
 git checkout <BRANCH_NAME>
 ```
+# How to delete branch locally?
+```
+git branch -d <BRANCH_NAME>
+```
+# How to delete the branch remotely?
+```
+git push origin --delete <BRANCH_NAME>
+```
+# How to list local branches?
+```
+git branch
+```
 
 
 
