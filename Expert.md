@@ -15,7 +15,7 @@
 
 # Git Patch Management:
 
-# Git Cryptography and Security:g
+# Git Cryptography and Security:
 
 # Advanced Git Collaboration Techniques:
 
