@@ -6,9 +6,10 @@ git init
 ```
 git add <file> //stage single file
 git add <file1 file2 file3> //stage multiple files
-git add . //stage all changes and this not recommended 
+git add . //stage all changes and this not recommended
+git add -e //manually edit the chunk
 ```
-# How to remove file from stage?
+# How to remote file from stage?
 ```
 git restore --staged <file>
 ```
@@ -77,6 +78,7 @@ git push origin --delete <MERGED_BRANCH_NAME>
 # How to merge branch into main branch using rebase command?
 ```
 git checkout main
-git rebase
+git rebase <MERGED_BRANCH_NAME>
+git push origin main
 ```
-
+ 
