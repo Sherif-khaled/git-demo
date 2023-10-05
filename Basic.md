@@ -66,12 +66,17 @@ git merge <MERGED_BRANCH_NAME>
 git push origin main
 
 ```
-# How to merge branch into main branch and then delete the branch?
+# How to merge branch into main branch and then delete the branch from local and remote repo?
 ```
 git checkout main
 git merge <MERGED_BRANCH_NAME>
 git checkout -d <MERGED_BRANCH_NAME>
-git push origin main --delete <MERGED_BRANCH_NAME>
+git push origin --delete <MERGED_BRANCH_NAME>
 
+```
+# How to merge branch into main branch using rebase command?
+```
+git checkout main
+git rebase
 ```
 
