@@ -8,7 +8,7 @@ git add <file> //stage single file
 git add <file1 file2 file3> //stage multiple files
 git add . //stage all changes and this not recommended
 git add -e //manually edit the chunk
-git add -p //get diff staging changes
+git add -p //get diff stgit aging changes
 ```
 # How to remote file from stage?
 ```
